@@ -68,6 +68,7 @@ namespace Supermarket
                     if (cashiers.IsEmpty)
                     {
                         cashiersEvent.Reset();
+                        continue;
                     }
 
                     // process current customer
